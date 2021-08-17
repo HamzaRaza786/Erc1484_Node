@@ -1,0 +1,326 @@
+{
+  "id": "a37da452ca51fc54d43495b033e2514e",
+  "_format": "hh-sol-build-info-1",
+  "solcVersion": "0.8.4",
+  "solcLongVersion": "0.8.4+commit.c7e474f2",
+  "input": {
+    "language": "Solidity",
+    "sources": {
+      "contracts/interfaces/ILiquidityValueCalculator.sol": {
+        "content": "pragma solidity ^0.8.4;\ninterface ILiquidityValueCalculator {\n    function computeLiquidityShareValue(uint liquidity, address tokenA, address tokenB) external returns (uint tokenAAmount, uint tokenBAmount);\n}"
+      }
+    },
+    "settings": {
+      "optimizer": {
+        "enabled": false,
+        "runs": 200
+      },
+      "outputSelection": {
+        "*": {
+          "*": [
+            "abi",
+            "evm.bytecode",
+            "evm.deployedBytecode",
+            "evm.methodIdentifiers"
+          ],
+          "": [
+            "ast"
+          ]
+        }
+      }
+    }
+  },
+  "output": {
+    "contracts": {
+      "contracts/interfaces/ILiquidityValueCalculator.sol": {
+        "ILiquidityValueCalculator": {
+          "abi": [
+            {
+              "inputs": [
+                {
+                  "internalType": "uint256",
+                  "name": "liquidity",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "address",
+                  "name": "tokenA",
+                  "type": "address"
+                },
+                {
+                  "internalType": "address",
+                  "name": "tokenB",
+                  "type": "address"
+                }
+              ],
+              "name": "computeLiquidityShareValue",
+              "outputs": [
+                {
+                  "internalType": "uint256",
+                  "name": "tokenAAmount",
+                  "type": "uint256"
+                },
+                {
+                  "internalType": "uint256",
+                  "name": "tokenBAmount",
+                  "type": "uint256"
+                }
+              ],
+              "stateMutability": "nonpayable",
+              "type": "function"
+            }
+          ],
+          "evm": {
+            "bytecode": {
+              "generatedSources": [],
+              "linkReferences": {},
+              "object": "",
+              "opcodes": "",
+              "sourceMap": ""
+            },
+            "deployedBytecode": {
+              "generatedSources": [],
+              "immutableReferences": {},
+              "linkReferences": {},
+              "object": "",
+              "opcodes": "",
+              "sourceMap": ""
+            },
+            "methodIdentifiers": {
+              "computeLiquidityShareValue(uint256,address,address)": "4ef0c6cc"
+            }
+          }
+        }
+      }
+    },
+    "errors": [
+      {
+        "component": "general",
+        "errorCode": "1878",
+        "formattedMessage": "Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n--> contracts/interfaces/ILiquidityValueCalculator.sol\n\n",
+        "message": "SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.",
+        "severity": "warning",
+        "sourceLocation": {
+          "end": -1,
+          "file": "contracts/interfaces/ILiquidityValueCalculator.sol",
+          "start": -1
+        },
+        "type": "Warning"
+      }
+    ],
+    "sources": {
+      "contracts/interfaces/ILiquidityValueCalculator.sol": {
+        "ast": {
+          "absolutePath": "contracts/interfaces/ILiquidityValueCalculator.sol",
+          "exportedSymbols": {
+            "ILiquidityValueCalculator": [
+              15
+            ]
+          },
+          "id": 16,
+          "nodeType": "SourceUnit",
+          "nodes": [
+            {
+              "id": 1,
+              "literals": [
+                "solidity",
+                "^",
+                "0.8",
+                ".4"
+              ],
+              "nodeType": "PragmaDirective",
+              "src": "0:23:0"
+            },
+            {
+              "abstract": false,
+              "baseContracts": [],
+              "contractDependencies": [],
+              "contractKind": "interface",
+              "fullyImplemented": false,
+              "id": 15,
+              "linearizedBaseContracts": [
+                15
+              ],
+              "name": "ILiquidityValueCalculator",
+              "nameLocation": "34:25:0",
+              "nodeType": "ContractDefinition",
+              "nodes": [
+                {
+                  "functionSelector": "4ef0c6cc",
+                  "id": 14,
+                  "implemented": false,
+                  "kind": "function",
+                  "modifiers": [],
+                  "name": "computeLiquidityShareValue",
+                  "nameLocation": "75:26:0",
+                  "nodeType": "FunctionDefinition",
+                  "parameters": {
+                    "id": 8,
+                    "nodeType": "ParameterList",
+                    "parameters": [
+                      {
+                        "constant": false,
+                        "id": 3,
+                        "mutability": "mutable",
+                        "name": "liquidity",
+                        "nameLocation": "107:9:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 14,
+                        "src": "102:14:0",
+                        "stateVariable": false,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        "typeName": {
+                          "id": 2,
+                          "name": "uint",
+                          "nodeType": "ElementaryTypeName",
+                          "src": "102:4:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "visibility": "internal"
+                      },
+                      {
+                        "constant": false,
+                        "id": 5,
+                        "mutability": "mutable",
+                        "name": "tokenA",
+                        "nameLocation": "126:6:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 14,
+                        "src": "118:14:0",
+                        "stateVariable": false,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        "typeName": {
+                          "id": 4,
+                          "name": "address",
+                          "nodeType": "ElementaryTypeName",
+                          "src": "118:7:0",
+                          "stateMutability": "nonpayable",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        "visibility": "internal"
+                      },
+                      {
+                        "constant": false,
+                        "id": 7,
+                        "mutability": "mutable",
+                        "name": "tokenB",
+                        "nameLocation": "142:6:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 14,
+                        "src": "134:14:0",
+                        "stateVariable": false,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        "typeName": {
+                          "id": 6,
+                          "name": "address",
+                          "nodeType": "ElementaryTypeName",
+                          "src": "134:7:0",
+                          "stateMutability": "nonpayable",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        "visibility": "internal"
+                      }
+                    ],
+                    "src": "101:48:0"
+                  },
+                  "returnParameters": {
+                    "id": 13,
+                    "nodeType": "ParameterList",
+                    "parameters": [
+                      {
+                        "constant": false,
+                        "id": 10,
+                        "mutability": "mutable",
+                        "name": "tokenAAmount",
+                        "nameLocation": "173:12:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 14,
+                        "src": "168:17:0",
+                        "stateVariable": false,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        "typeName": {
+                          "id": 9,
+                          "name": "uint",
+                          "nodeType": "ElementaryTypeName",
+                          "src": "168:4:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "visibility": "internal"
+                      },
+                      {
+                        "constant": false,
+                        "id": 12,
+                        "mutability": "mutable",
+                        "name": "tokenBAmount",
+                        "nameLocation": "192:12:0",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 14,
+                        "src": "187:17:0",
+                        "stateVariable": false,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        },
+                        "typeName": {
+                          "id": 11,
+                          "name": "uint",
+                          "nodeType": "ElementaryTypeName",
+                          "src": "187:4:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "visibility": "internal"
+                      }
+                    ],
+                    "src": "167:38:0"
+                  },
+                  "scope": 15,
+                  "src": "66:140:0",
+                  "stateMutability": "nonpayable",
+                  "virtual": false,
+                  "visibility": "external"
+                }
+              ],
+              "scope": 16,
+              "src": "24:184:0",
+              "usedErrors": []
+            }
+          ],
+          "src": "0:208:0"
+        },
+        "id": 0
+      }
+    }
+  }
+}

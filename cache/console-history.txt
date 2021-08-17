@@ -1,0 +1,66 @@
+greeter.address
+a = accs[0]
+accs  = await  ethers.getSigners();
+  await greeter.deployed();
+  const greeter = await Greeter.deploy();
+const Greeter = await hre.ethers.getContractFactory("Erc1484");
+await greeter.getIdentity(2)
+greeter.address
+await greeter.getIdentity(1)
+await greeter.createIdentity(a.address, [a.address], [a.address]);
+a = accs[0]
+await greeter.createIdentity(a.address, [a.address], [a.address]);
+accs  = await  ethers.getSigners();
+greeter.address
+  await greeter.deployed();
+  const greeter = await Greeter.deploy();
+const Greeter = await hre.ethers.getContractFactory("Erc1484");
+greeter.address
+  await greeter.deployed();
+  const greeter = await Greeter.deploy();
+  const Greeter = await hre.ethers.getContractFactory("Erc1484");
+greeter.address
+  await greeter.deployed();
+  const greeter = await Greeter.deploy();
+const Greeter = await hre.ethers.getContractFactory("Erc1484");
+greeter.address
+await greeter.getIdentity(1)
+await greeter.getIdentity(0)
+await greeter.getIdentity(1)
+await greeter.createIdentity(a.address, [a.address], [a.address]);
+await greeter.createIdentity(accs[0].address,[accs[0].address],accs[0].address]);
+a.address
+a = accs[0]
+accs  = await  ethers.getSigners();
+accs  = ethers.getSigners();
+[acc] = ethers.getSigners();
+await greeter.deployed();
+const greeter = await Greeter.deploy();
+const Greeter = await hre.ethers.getContractFactory("Erc1484");
+await greeter.getIdentity(1)
+await greeter.getIdentity(0)
+await greeter.hasIdentity(accs[0].address)
+await greeter.createIdentity(acc, [acc], [acc]);
+acc
+let acc = accs[0].address
+let a = accs[0].address
+accs[0].address
+await greeter.createIdentity(accs[0].address,[accs[0].address],accs[0].address]);
+let tx = await greeter.createIdentity(accs[0].address,[accs[0].address],accs[0].address]);
+await greeter.hasIdentity(accs[0].address)
+greeter.hasIdentity(accs[0].address)
+let tx = greeter.createIdentity(accs[0].address,[accs[0].address],accs[0].address]);
+let tx = greeter.createIdentity(accs[0].address,[accs[0].address],accs[0].address]));
+let tx = greeter.createIdentity(accs[0].address,[accs[0].address],accs[0].address]);
+accs[0].address
+accs[0]
+let accs = await ethers.getSigners();
+await ethers.getSigners()
+ethers.getSigners()
+greeter.address
+  await greeter.deployed();
+  const greeter = await Greeter.deploy();
+const Greeter = await hre.ethers.getContractFactory("Erc1484");
+ls
+a
+let a = 2;

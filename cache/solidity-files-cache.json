@@ -1,0 +1,179 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/hamza/Documents/Xord/contracts/Token.sol": {
+      "lastModificationDate": 1627628419792,
+      "contentHash": "97b5b33383601c9102cf7b4e584aeaa5",
+      "sourceName": "contracts/Token.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Token"
+      ]
+    },
+    "/home/hamza/Documents/Xord/contracts/AddressSet.sol": {
+      "lastModificationDate": 1627628410411,
+      "contentHash": "2efc6eda508599dd2858e50218d5797f",
+      "sourceName": "contracts/AddressSet.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "AddressSet"
+      ]
+    },
+    "/home/hamza/Documents/Xord/contracts/Erc1484.sol": {
+      "lastModificationDate": 1627973899853,
+      "contentHash": "2b2d23de814e83109f6383d64ae908d6",
+      "sourceName": "contracts/Erc1484.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./AddressSet.sol",
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "Erc1484",
+        "IdentityRegistryInterface"
+      ]
+    },
+    "/home/hamza/Documents/Xord/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1627466819106,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "/home/hamza/Documents/Xord/contracts/interfaces/ILiquidityValueCalculator.sol": {
+      "lastModificationDate": 1628588158681,
+      "contentHash": "434d87f00f00af6713d34352faf2a684",
+      "sourceName": "contracts/interfaces/ILiquidityValueCalculator.sol",
+      "solcConfig": {
+        "version": "0.8.4",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "ILiquidityValueCalculator"
+      ]
+    }
+  }
+}

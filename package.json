@@ -1,0 +1,36 @@
+{
+  "name": "Xord",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "build": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.3",
+    "hardhat": "^2.5.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.0.1",
+    "nodemon": "^2.0.12",
+    "shortid": "^2.2.16",
+    "truffle-contract": "^4.0.31",
+    "web3": "^1.5.0"
+  },
+  "description": ""
+}
